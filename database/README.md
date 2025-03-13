@@ -73,7 +73,7 @@ To add a new migration:
 The database consists of the following tables:
 
 - **Categories**: Product categories (e.g., Electronics, Clothing)
-- **Verticals**: Sub-categories or verticals within categories (e.g., Smartphones, T-shirts)
+- **Subcategories**: Sub-categories within categories (e.g., Smartphones, T-shirts)
 - **Products**: Basic product information
 - **Variants**: Product variants (e.g., different colors, sizes)
 - **Stock**: Inventory information for each variant
@@ -82,7 +82,7 @@ The database consists of the following tables:
 ### Entity Relationship Diagram
 
 ```
-Categories 1──* Verticals 1──* Products 1──* Variants 1──* Stock *──1 Shops
+Categories 1──* Subcategories 1──* Products 1──* Variants 1──* Stock *──1 Shops
 ```
 
 ## Task

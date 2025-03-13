@@ -6,7 +6,7 @@ This repository contains a technical interview project designed to evaluate cand
 
 The project simulates a simplified e-commerce system with the following components:
 
-1. **Database**: A SQL Server database with tables for products, variants, categories, verticals, stock, and shops.
+1. **Database**: A SQL Server database with tables for products, variants, categories, subcategories, stock, and shops.
 2. **Backend**: An F# Giraffe API with Dapper for database access.
 3. **Frontend**: A React TypeScript application.
 
